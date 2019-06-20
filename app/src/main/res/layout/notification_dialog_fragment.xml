@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="35dp"
+        android:text="@string/mins"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/minspinner2"
+        app:layout_constraintStart_toEndOf="@+id/hrsspinner2"
+        app:layout_constraintTop_toBottomOf="@+id/notifycheck2" />
+
+    <CheckBox
+        android:id="@+id/notifycheck2"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginLeft="184dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="180dp"
+        android:layout_marginRight="180dp"
+        android:layout_marginBottom="120dp"
+        android:text="@string/notify"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/Cancel2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <CheckBox
+            android:id="@+id/Monday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/monday"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="113dp" />
+
+        <CheckBox
+            android:id="@+id/Tuesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/tuesday"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="136dp" />
+
+        <CheckBox
+            android:id="@+id/Wednesday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/wednesday"
+            tools:layout_editor_absoluteX="183dp"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <CheckBox
+            android:id="@+id/Thursday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/thursday"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="187dp" />
+
+        <CheckBox
+            android:id="@+id/Friday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/friday"
+            tools:layout_editor_absoluteX="182dp"
+            tools:layout_editor_absoluteY="206dp" />
+
+        <CheckBox
+            android:id="@+id/Saturday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/saturday"
+            tools:layout_editor_absoluteX="178dp"
+            tools:layout_editor_absoluteY="227dp" />
+
+        <CheckBox
+            android:id="@+id/Sunday2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/sunday"
+            tools:layout_editor_absoluteX="180dp"
+            tools:layout_editor_absoluteY="252dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="16dp"
+        android:text="@string/edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/Cancel2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <Button
+        android:id="@+id/Cancel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginRight="52dp"
+        android:text="@string/cancel"
+        app:layout_constraintBottom_toBottomOf="@+id/Edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/Edit"
+        app:layout_constraintTop_toTopOf="@+id/Edit"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/Hours"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginBottom="35dp"
+        android:text="@string/hrs"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toStartOf="@+id/hrsspinner2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/notifycheck2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Spinner
+        android:id="@+id/hrsspinner2"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="35dp"
+        android:entries="@array/hrs_list"
+        app:layout_constraintBottom_toBottomOf="@+id/Hours"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/Hours"
+        app:layout_constraintTop_toTopOf="@+id/Hours"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Spinner
+        android:id="@+id/minspinner2"
+        android:layout_width="84dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-1dp"
+        android:layout_marginRight="-1dp"
+        android:layout_marginBottom="35dp"
+        android:entries="@array/min_list"
+        app:layout_constraintBottom_toBottomOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="119dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="119dp"
+        android:layout_marginRight="119dp"
+        android:text="Notification"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/notifycheck2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

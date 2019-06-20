@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Track"
+    tools:showIn="@layout/activity_track">
+
+    <Button
+        android:id="@+id/col_minus"
+        android:layout_width="37dp"
+        android:layout_height="40dp"
+        android:text="@string/less"
+        app:layout_constraintBottom_toBottomOf="@+id/col_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/col_value"
+        app:layout_constraintTop_toTopOf="@+id/col_value"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/row_minus"
+        android:layout_width="37dp"
+        android:layout_height="39dp"
+        android:text="@string/less"
+        app:layout_constraintBottom_toBottomOf="@+id/row_value"
+        app:layout_constraintStart_toEndOf="@+id/row_value"
+        app:layout_constraintTop_toTopOf="@+id/row_value" />
+
+    <EditText
+        android:id="@+id/col_value"
+        android:layout_width="81dp"
+        android:layout_height="39dp"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/col_minus"
+        app:layout_constraintStart_toEndOf="@+id/col_plus"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+    <EditText
+        android:id="@+id/row_value"
+        android:layout_width="81dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:foregroundGravity="bottom"
+        android:inputType="number"
+        android:text="@string/_0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/row_minus"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/row_plus"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/col_plus"
+        android:layout_width="37dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="32dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toBottomOf="@+id/col_value"
+        app:layout_constraintEnd_toStartOf="@+id/col_value"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toEndOf="@+id/row_minus"
+        app:layout_constraintTop_toTopOf="@+id/col_value" />
+
+    <Button
+        android:id="@+id/row_plus"
+        android:layout_width="37dp"
+        android:layout_height="41dp"
+        android:text="@string/plus"
+        app:layout_constraintBottom_toBottomOf="@+id/col_value"
+        app:layout_constraintEnd_toStartOf="@+id/col_value"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/col_value"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/row"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/col_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.01"
+        app:layout_constraintStart_toEndOf="@+id/row_plus"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/Color_selected"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/dialog_color"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="57dp"
+        android:text="@string/column"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/col_value"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/common_google_signin_btn_text_dark_default"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <com.example.john.a436projectstart.myCanvas
+            android:id="@+id/myCanvas2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

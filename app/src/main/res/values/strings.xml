@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Knit Designs</string>
+    <string name="title_activity_edit">Edit</string>
+    <string name="title_activity_track">Track</string>
+    <string name="newtext">New</string>
+    <string name="edit">Edit</string>
+    <string name="track">Track</string>
+    <string name="knit_designs">Knit Designs</string>
+    <string name="color">Color</string>
+    <string name="paint_bucket">Paint Bucket</string>
+    <string name="paint_brush">Paint Brush</string>
+    <string name="copy_paste">Copy-Paste</string>
+    <string name="size">Size</string>
+    <string name="image_size">image size</string>
+    <string name="canvas_size">canvas size</string>
+    <string name="change_colors">change colors</string>
+    <string name="save">Save</string>
+    <string name="edit_m">edit</string>
+    <string name="notification">set/change notifications</string>
+    <string name="cancel">Cancel</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+    <string name="canvas">Canvas</string>
+    <string name="colors">Colors</string>
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="green">Green</string>
+    <string name="mins">Min</string>
+    <string name="notify">Notify</string>
+    <string name="monday">M</string>
+    <string name="tuesday">T</string>
+    <string name="wednesday">W</string>
+    <string name="thursday">Th</string>
+    <string name="friday">F</string>
+    <string name="saturday">Sa</string>
+    <string name="sunday">Su</string>
+    <string name="hrs">Hrs</string>
+    <string name="less">-</string>
+    <string name="_0">0</string>
+    <string name="plus">+</string>
+    <string name="row">row</string>
+    <string name="column">Column</string>
+    <string name="done">Done</string>
+    <string name="name">Name</string>
+
+
+</resources>

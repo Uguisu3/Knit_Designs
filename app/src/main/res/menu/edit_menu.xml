@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Projectstart="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/canvas_size"
+        android:title="@string/canvas_size"
+        Projectstart:showAsAction="never"/>
+
+    <item android:id="@+id/image_size"
+        android:title="@string/image_size"
+        Projectstart:showAsAction="never"/>
+
+    <item android:id="@+id/color_change"
+        android:title="@string/change_colors"
+        Projectstart:showAsAction="never"/>
+
+    <item android:id="@+id/save"
+        android:title="@string/save"
+        Projectstart:showAsAction="never"/>
+</menu>
