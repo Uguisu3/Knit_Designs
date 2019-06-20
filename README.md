@@ -6,7 +6,7 @@ Has three different Activities: a Main Menu, an Edit, and a Track.
 # Main Menu
 ------------
   This activity is main location to get everywhere else in the app, with buttons to get to where you want: new, edit, track.
-  ![Main Menu](images/Main Menu.png)
+  ![alt-text](images/MainMenu.png?raw=true "Main Menu")
   
   
 # Edit
@@ -19,6 +19,8 @@ Has three different Activities: a Main Menu, an Edit, and a Track.
   added to or removed from. There is an option to save the image you have created. Lastly there is a button to get to the
   track activity. Currently the only way to get to the track activity succesufully with your current image is to save the
   image, then track the image.
+  
+  ![alt-text](images/New.png?raw=true "New pattern") ![alt-text](images/Edit.png?raw=true "open image") ![alt-text](images/Options.png?raw=true "Options for edit") ![alt-text](images/Color_picker.png?raw=true "adding and removing colors") ![alt-text](images/Color_Select.png?raw=true "Selecting a color from the list") ![alt-text](images/Canvas_Size.png?raw=true "Chnaging the canvas size")
 
 # Track
 ------------
@@ -26,3 +28,5 @@ Has three different Activities: a Main Menu, an Edit, and a Track.
   one in either the row or column for where the selected "pixel" is. Also you can change the selected "pixel" by either
   choosing the numerical values for rows and columns or by touching the location wanted. There is a square near the bottom 
   that indicates the current color being selected.
+  
+![alt-text](images/Options_Track.png?raw=true "The Track Activity")
