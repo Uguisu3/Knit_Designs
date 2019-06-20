@@ -6,7 +6,7 @@ Has three different Activities: a Main Menu, an Edit, and a Track.
 # Main Menu
 ------------
   This activity is main location to get everywhere else in the app, with buttons to get to where you want: new, edit, track.
-  ![Alt text](relative/path/to/img.jpg?raw=true "Main Menu.png")
+  ![Alt text](Main Menu.png?raw=true "Main Menu")
   
 # Edit
 ------------
