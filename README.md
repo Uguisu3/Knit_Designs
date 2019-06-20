@@ -1,6 +1,7 @@
 # Knit Designs
+------------
 An App that supports the creation of patterns for knitting and the tracking of where in the pattern the knitter is currently.
-Has three different Activities: a main menu, an Edit, and a Track.
+Has three different Activities: a Main Menu, an Edit, and a Track.
 
 # Main Menu
 ------------
